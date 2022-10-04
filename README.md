@@ -2,7 +2,7 @@
 
 ![Alt text](screenshot.JPG "Screenshot")
 
-## Live Linki
+## Live Link
 https://blakerichardburns.github.io/code-refactor-work-day-scheduler/
 
 ## Repository Link
