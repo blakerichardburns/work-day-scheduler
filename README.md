@@ -1,6 +1,6 @@
 # code-refactor-work-day-scheduler
 
-<!-- insert screenshot -->
+![Alt text](screenshot.JPG?raw=true
 
 ## Description
 
@@ -8,7 +8,7 @@ Week 5 Challenge: Third-Party APIs
 Code refactor to add interactive functionality to professional day planner utilizating Third Party APIs.
 
 ## Live Link
-<!-- insert url -->
+https://blakerichardburns.github.io/code-refactor-work-day-scheduler/
 
 ##Repository Link
-<!-- insert github -->
+https://github.com/blakerichardburns/code-refactor-work-day-scheduler
