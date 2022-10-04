@@ -1,6 +1,6 @@
 # code-refactor-work-day-scheduler
 
-![Alt text](screenshot.JPG?raw=true
+![Alt text](screenshot.JPG "Screenshot")
 
 ## Description
 
