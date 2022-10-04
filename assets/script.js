@@ -1,16 +1,17 @@
 var currentDay = moment().format("dddd, MMMM Do, YYYY hh:mm");
 $("#currentDay").text((currentDay));
+var currentTime = moment().format("hh");
 
-var eightField = document.getElementById("8am");
-var nineField = document.getElementById("9am");
-var tenField = document.getElementById("10am");
-var elevenField = document.getElementById("11am");
-var twelveField = document.getElementById("12pm");
-var oneField = document.getElementById("1pm");
-var twoField = document.getElementById("2pm");
-var threeField = document.getElementById("3pm");
-var fourField = document.getElementById("4pm");
-var fiveField = document.getElementById("5pm");
+var eightField = document.getElementById("8");
+var nineField = document.getElementById("9");
+var tenField = document.getElementById("10");
+var elevenField = document.getElementById("11");
+var twelveField = document.getElementById("12");
+var oneField = document.getElementById("13");
+var twoField = document.getElementById("14");
+var threeField = document.getElementById("15");
+var fourField = document.getElementById("16");
+var fiveField = document.getElementById("17");
 
 var eightButton = document.getElementById("8button");
 var nineButton = document.getElementById("9button");
@@ -22,6 +23,107 @@ var twoButton = document.getElementById("2button");
 var threeButton = document.getElementById("3button");
 var fourButton = document.getElementById("4button");
 var fiveButton = document.getElementById("5button");
+
+function box8() {
+    if (eightField.id < currentTime) {
+        eightField.setAttribute("class", "past");
+    } else if (eightField.id == currentTime) {
+        eightField.setAttribute("class", "present");
+    } else {
+        eightField.setAttribute("class", "future");
+    }
+} 
+
+function box9() {
+    if (nineField.id < currentTime) {
+        nineField.setAttribute("class", "past");
+    } else if (nineField.id == currentTime) {
+        nineField.setAttribute("class", "present");
+    } else {
+        nineField.setAttribute("class", "future");
+    }
+} 
+
+function box10() {
+    if (tenField.id < currentTime) {
+        tenField.setAttribute("class", "past");
+    } else if (tenField.id == currentTime) {
+        tenField.setAttribute("class", "present");
+    } else {
+        tenField.setAttribute("class", "future");
+    }
+} 
+
+function box11() {
+    if (elevenField.id < currentTime) {
+        elevenField.setAttribute("class", "past");
+    } else if (elevenField.id == currentTime) {
+        elevenField.setAttribute("class", "present");
+    } else {
+        elevenField.setAttribute("class", "future");
+    }
+} 
+
+function box12() {
+    if (twelveField.id < currentTime) {
+        twelveField.setAttribute("class", "past");
+    } else if (twelveField.id == currentTime) {
+        twelveField.setAttribute("class", "present");
+    } else {
+        twelveField.setAttribute("class", "future");
+    }
+} 
+
+function box1() {
+    if (oneField.id < currentTime) {
+        oneField.setAttribute("class", "past");
+    } else if (oneField.id == currentTime) {
+        oneField.setAttribute("class", "present");
+    } else {
+        oneField.setAttribute("class", "future");
+    }
+} 
+
+function box2() {
+    if (twoField.id < currentTime) {
+        twoField.setAttribute("class", "past");
+    } else if (twoField.id == currentTime) {
+        twoField.setAttribute("class", "present");
+    } else {
+        twoField.setAttribute("class", "future");
+    }
+} 
+
+function box3() {
+    if (threeField.id < currentTime) {
+        threeField.setAttribute("class", "past");
+    } else if (threeField.id == currentTime) {
+        threeField.setAttribute("class", "present");
+    } else {
+        threeField.setAttribute("class", "future");
+    }
+} 
+
+function box4() {
+    if (fourField.id < currentTime) {
+        fourField.setAttribute("class", "past");
+    } else if (fourField.id == currentTime) {
+        fourField.setAttribute("class", "present");
+    } else {
+        fourField.setAttribute("class", "future");
+    }
+} 
+
+function box5() {
+    if (fiveField.id < currentTime) {
+        fiveField.setAttribute("class", "past");
+    } else if (fiveField.id == currentTime) {
+        fiveField.setAttribute("class", "present");
+    } else {
+        fiveField.setAttribute("class", "future");
+    }
+} 
+
 
 function loadPlanner() {
 var eightInput = localStorage.getItem("eight");
@@ -116,3 +218,14 @@ fiveButton.addEventListener("click", function(event) {
 });
 
 loadPlanner();
+
+box8();
+box9();
+box10();
+box11();
+box12();
+box1();
+box2();
+box3();
+box4();
+box5();
