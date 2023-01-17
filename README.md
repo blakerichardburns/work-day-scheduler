@@ -1,13 +1,13 @@
-# code-refactor-work-day-scheduler
+# work-day-scheduler
 Module 5 Challenge: Third-Party APIs
 
 ![Alt text](./assets/screenshot.JPG "Screenshot")
 
 ## Live Link
-https://blakerichardburns.github.io/code-refactor-work-day-scheduler/
+https://blakerichardburns.github.io/work-day-scheduler/
 
 ## Repository Link
-https://github.com/blakerichardburns/code-refactor-work-day-scheduler
+https://github.com/blakerichardburns/work-day-scheduler
 
 ## Description
 Code refactor to add interactive functionality to professional day planner utilizating Third Party APIs.
