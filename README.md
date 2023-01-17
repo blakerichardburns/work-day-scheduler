@@ -10,7 +10,7 @@ https://blakerichardburns.github.io/workday-scheduler/
 https://github.com/blakerichardburns/workday-scheduler
 
 ## Description
-Code refactor to add interactive functionality to professional day planner utilizating Third Party APIs.
+Code refactor to add interactive functionality to professional day planner utilizating Third Party APIs and saving to local storage.
 
   ## Table of Contents
   * [Installation Instructions](#installation-instructions)

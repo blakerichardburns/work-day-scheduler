@@ -2,8 +2,11 @@ var currentDay = moment().format("dddd, MMMM Do, YYYY hh:mm");
 $("#currentDay").text((currentDay));
 var currentTime = moment().format("hh");
 
-var eightField = document.getElementById("8");
-var nineField = document.getElementById("9");
+console.log(currentDay);
+console.log(currentTime);
+
+var eightField = document.getElementById("08");
+var nineField = document.getElementById("09");
 var tenField = document.getElementById("10");
 var elevenField = document.getElementById("11");
 var twelveField = document.getElementById("12");
